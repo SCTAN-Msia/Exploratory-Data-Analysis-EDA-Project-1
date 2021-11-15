@@ -20,7 +20,7 @@ x <- EP_SubDateTime
 plot(x, y = EP_SubDate$Global_active_power, type = "l",  xlab ="", ylab="Global Active Power (kilowatts)")
 
 ## Plot 2: Time series plot for Valtage
-plot(x, y = EP_SubDate$Voltage, type = "l", xlab="", ylab="Valtage")
+plot(x, y = EP_SubDate$Voltage, type = "l", xlab="datatime", ylab="Valtage")
 
 
 ## Plot 3: Time Series plot for Sub metering
@@ -30,7 +30,7 @@ lines(x, EP_SubDate$Sub_metering_3, col = "blue")
 legend("topright", lty = 1, col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
 ## Plot 4: Time Series plot for Global Reactive Power
-plot(x, y = EP_SubDate$Global_reactive_power, type = "l", xlab="", ylab="Global Reactive Power")
+plot(x, y = EP_SubDate$Global_reactive_power, type = "l", xlab="datatime", ylab="Global Reactive Power")
 
 # Close the device.
 dev.off()

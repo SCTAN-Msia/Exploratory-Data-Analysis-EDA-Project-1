@@ -27,7 +27,7 @@ dev.cur()
 ## Assigned plot dimension
 png("plot2.png", width=480, height=480)
 
-## Plotting time series plot
+## Plotting time series plot for Global active power
 plot(x = EP_SubDateTime, y=EP_SubDate$Global_active_power, type = "l",  xlab ="", ylab="Global Active Power (kilowatts)")
 
 # Close the device.

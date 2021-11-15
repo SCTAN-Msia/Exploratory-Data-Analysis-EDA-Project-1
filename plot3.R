@@ -26,7 +26,7 @@ dev.cur()
 ## Assigned plot dimension
 png("plot3.png", width=480, height=480)
 
-## Plotting Sub_metering Time Series plots
+## Plotting Sub Metering Time Series plots
 x <- EP_SubDateTime
 
 plot(x, EP_SubDate$Sub_metering_1, type = "l", col = "black", xlab = "", ylab = "Energy Sub Metering")

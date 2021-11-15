@@ -24,7 +24,7 @@ dev.cur()
 ## Assigned plot dimension
 png("plot1.png", width=480, height=480)
 
-## Plotting Histrogram for Global active power
+## Plotting Histrogram for Global Active Power
 hist(EP_SubDate$Global_active_power, main="Global Active Power", xlab="Global Active Power (kilowatts)", ylab="Frequency", col="Red")
 
 # Close the device.

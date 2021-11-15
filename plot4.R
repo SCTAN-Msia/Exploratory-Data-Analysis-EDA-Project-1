@@ -23,7 +23,7 @@ plot(x, y = EP_SubDate$Global_active_power, type = "l",  xlab ="", ylab="Global 
 plot(x, y = EP_SubDate$Voltage, type = "l", xlab="", ylab="Valtage")
 
 
-## Plot 3: Sub_metering Time Series plot
+## Plot 3: Time Series plot for Sub metering
 plot(x, EP_SubDate$Sub_metering_1, type = "l", col = "black", xlab = "", ylab = "Energy Sub Metering")
 lines(x, EP_SubDate$Sub_metering_2, col = "red")
 lines(x, EP_SubDate$Sub_metering_3, col = "blue")
